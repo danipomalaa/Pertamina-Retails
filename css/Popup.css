@@ -1,0 +1,135 @@
+﻿.popupbackground
+{
+    background-color : #414141;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.popup
+{
+    background:#FFF;
+    border:10px solid #053686;
+    padding:0;
+}
+
+
+.popup_header
+{
+    height:50px;
+    background:#053686;
+    text-align:center;
+}
+
+.popup_title
+{
+    text-transform:capitalize;
+    font-size:1.5em;
+    color:#FFF;
+}
+
+.popup_btn_close
+{
+    width:25px;
+    height:25px;
+    padding:2px;
+    background:transparent;
+    color:#FFF;
+    border:none;
+    font-size:18px;
+    font-weight:bold;
+    margin:5px  0 0 0;
+    border:none;
+}
+
+.popup_content
+{
+    max-height:500px;
+    margin:10px  0 10px 0;
+    padding:10px;
+}
+
+.imgzoom
+{
+    border:none;
+    padding:0;
+    max-width:600px;
+    max-height:600px;
+}
+
+.popup_register .popup_header
+{
+    background: #053686 url(../Images/icon-register-white.png) left top no-repeat;
+}
+
+.popup_editprofile .popup_header
+{
+    background: #053686 url(../Images/icon-profile-white.png) left top no-repeat;
+}
+
+.popup_createpost .popup_header
+{
+    background: #053686 url(../Images/icon-newpost_white_50x50.png) left top no-repeat;
+}
+
+.popup_invitesomeone .popup_header
+{
+    background: #053686 url(../Images/icon-invite_white_50x50.png) left top no-repeat;
+}
+
+.popup .form
+{
+    margin:15px;
+    margin-top:5px;
+    width:40%;
+}
+
+.popup_register .pnl_license_terms
+{
+    margin-top:5px;
+    height:300px;
+    border:3px solid #053686;
+    color: #053686;
+}
+
+.popup_register .pnl_license_terms .title
+{
+    padding:5px;
+}
+
+.popup_register .pnl_license_terms .content
+{
+    padding:5px;
+}
+
+.popup_content .form input, .popup_content .form textarea, .popup_content .form label .popup_content .form .fileUpload, .popup_content .form .ddl
+{
+    text-align:left;
+    padding:5px;
+    font-size:14px;
+    width:95%;
+}
+
+.popup_content input[type="submit"]
+{
+    text-align:center;
+    width:auto;
+    padding:6px;
+}
+
+.bottom_form
+{
+    padding:10px;
+    padding-top:0;
+}
+
+.imgdescription, .imgdescription *
+{
+    color:#666666;
+    font-size:12px;
+}
+
+.imgdescription .title
+{
+    font-size:14px;
+    color:#333333;
+}
